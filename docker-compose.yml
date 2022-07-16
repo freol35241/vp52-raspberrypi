@@ -1,0 +1,7 @@
+version: '3'
+services:
+  ble2mqtt:
+    image: ghcr.io/freol35241/ble2mqtt:v0.1.0
+    restart: always
+    network_mode: host
+    command: ["192.168.0.214", "1883", "-u${MQ_USER}", "-p${MQ_PASS}", "-bVP52/DEVICES"]
