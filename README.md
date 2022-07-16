@@ -7,7 +7,7 @@ Configuration for the raspberry pi running at VP52.
 
 ## Setup
 
-* Raspberry Pi OS Lite
+* Raspberry Pi OS Lite (Bullseye)
 * docker and docker-compose (https://dev.to/elalemanyo/how-to-install-docker-and-docker-compose-on-raspberry-pi-1mo)
 
 
